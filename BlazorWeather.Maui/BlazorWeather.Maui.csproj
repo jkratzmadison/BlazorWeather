@@ -74,6 +74,12 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.Graphics.Win2D" Version="1.0.1" />
+      <PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.2" />
+      <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
         <ProjectReference Include="..\BlazorWeather\BlazorWeather.csproj" />
     </ItemGroup>
 
